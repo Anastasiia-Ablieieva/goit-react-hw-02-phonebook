@@ -11,6 +11,7 @@ export class App extends Component {
     filter: '',
   };
 
+
   addContact = ({ name, number }) => {
     if (
       this.state.contacts.some(
