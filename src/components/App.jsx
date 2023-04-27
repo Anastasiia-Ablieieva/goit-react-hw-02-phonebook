@@ -9,8 +9,6 @@ export class App extends Component {
   state = {
     contacts: initialContacts,
     filter: '',
-    // name: '',
-    // number: ''
   };
 
   addContact = ({ name, number }) => {
